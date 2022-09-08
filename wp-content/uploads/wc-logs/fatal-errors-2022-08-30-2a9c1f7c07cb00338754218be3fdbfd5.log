@@ -1,0 +1,32 @@
+2022-08-30T09:12:07+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:301
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 301
+
+2022-08-30T09:12:08+00:00 CRITICAL Uncaught Error: Call to undefined function apply_filter() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:301
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 301
+
+2022-08-30T10:16:14+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:303
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): add_class_title()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(191): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1165): apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): woocommerce_template_loop_product_title()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#6 C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\templates\content-product.php(49): do_action()
+#7 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(772): require('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\Woocommerce\wp-content\plugi в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 303
+

@@ -1,0 +1,157 @@
+2022-08-28T12:12:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_panel(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3886
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_panel()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3886
+
+2022-08-28T12:13:41+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T12:14:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T12:16:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T12:18:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T12:20:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T12:22:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Customize_Manager::add_section(), 0 passed in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php on line 189 and at least 1 expected in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php:3982
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(189): WP_Customize_Manager->add_section()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): my_theme_customize_register()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php(933): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters( в C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-customize-manager.php на строке 3982
+
+2022-08-28T13:55:57+00:00 CRITICAL syntax error, unexpected '}', expecting ';' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 246
+
+2022-08-28T14:30:35+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::cart_get_cart() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:31:21+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on string in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\page.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:31:37+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::get_items() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:32:25+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::cart_get_cart() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:34:43+00:00 CRITICAL Uncaught Error: Call to undefined method WooCommerce::cart_get_cart() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\page.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:35:08+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on string in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\page.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+
+2022-08-28T14:35:12+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on string in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:60
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 60
+

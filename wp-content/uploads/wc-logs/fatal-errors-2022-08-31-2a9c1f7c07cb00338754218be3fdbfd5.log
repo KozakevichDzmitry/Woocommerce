@@ -1,0 +1,142 @@
+2022-08-31T18:51:53+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-includes\blocks.php на строке 252
+
+2022-08-31T18:54:08+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-wp-filesystem-direct.php на строке 66
+
+2022-08-31T19:00:53+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:313
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 313
+
+2022-08-31T19:01:04+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:313
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 313
+
+2022-08-31T19:22:22+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(310): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-08-31T19:32:43+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(310): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\admin-ajax.php(22): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-08-31T19:32:43+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(310): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-admin\plugins.php(10): require_once('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-08-31T19:32:48+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(310): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-08-31T19:49:28+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:379
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\post-new.php(10): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 379
+
+2022-08-31T19:49:31+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:379
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 379
+
+2022-08-31T19:51:16+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:389
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\post-new.php(10): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 389
+
+2022-08-31T19:51:16+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:389
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 389
+
+2022-08-31T19:51:19+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:389
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\post-new.php(10): require_once('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 389
+
+2022-08-31T19:51:20+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:389
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 389
+
+2022-08-31T19:52:07+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 402
+
+2022-08-31T19:52:08+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 402
+
+2022-08-31T19:52:17+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 402
+
+2022-08-31T19:52:17+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 402
+
+2022-08-31T19:53:54+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-includes\wp-db.php на строке 2169
+
+2022-08-31T19:54:56+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-includes\pomo\mo.php на строке 280
+
+2022-08-31T20:02:44+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\Registry\AbstractDependencyType.php на строке 55
+
+2022-08-31T20:03:29+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\packages\woocommerce-blocks\build\mini-cart-frontend.asset.php на строке 1
+

@@ -1,0 +1,2 @@
+2022-08-27T18:21:52+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\includes\rest-api\Controllers\Version2\class-wc-rest-webhooks-v2-controller.php на строке 183
+

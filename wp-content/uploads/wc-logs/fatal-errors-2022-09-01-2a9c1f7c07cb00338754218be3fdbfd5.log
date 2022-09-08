@@ -1,0 +1,55 @@
+2022-09-01T06:53:42+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 16
+
+2022-09-01T06:54:48+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 16
+
+2022-09-01T06:56:13+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 16
+
+2022-09-01T06:56:20+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 16
+
+2022-09-01T06:59:59+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-wp-filesystem-direct.php на строке 82
+
+2022-09-01T07:53:46+00:00 CRITICAL syntax error, unexpected '}', expecting '(' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 172
+
+2022-09-01T07:54:01+00:00 CRITICAL syntax error, unexpected '}', expecting '(' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 172
+
+2022-09-01T08:11:39+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_template() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php:20
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 20
+
+2022-09-01T10:40:01+00:00 CRITICAL Uncaught Error: Call to undefined method Carbon_Fields\Field\Complex_Field::where() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(287): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): crb_register_custom_fields()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): Carbon_Fields\Loader\Loader->trigger_fields_register()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action() в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-09-01T10:40:02+00:00 CRITICAL Uncaught Error: Call to undefined method Carbon_Fields\Field\Complex_Field::where() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:6
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(287): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): crb_register_custom_fields()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): Carbon_Fields\Loader\Loader->trigger_fields_register()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#7 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action() в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 6
+
+2022-09-01T10:56:38+00:00 CRITICAL Uncaught Error: Call to undefined function prinet_r() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\template-parts\slider.php:7
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(22): render_top_slider()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#4 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\template-parts\slider.php на строке 7
+
+2022-09-01T11:00:52+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 21
+

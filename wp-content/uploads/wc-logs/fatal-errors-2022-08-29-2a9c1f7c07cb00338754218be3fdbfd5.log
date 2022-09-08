@@ -1,0 +1,407 @@
+2022-08-29T07:00:55+00:00 CRITICAL Maximum execution time of 60 seconds exceeded в C:\OpenServer\domains\Woocommerce\wp-includes\functions.php на строке 6633
+
+2022-08-29T08:04:05+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Woocommerce/wp-content/themes/primdog/carbon-fields/carbon-fields.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 324
+
+2022-08-29T08:06:06+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 14
+
+2022-08-29T08:08:07+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 15
+
+2022-08-29T08:10:09+00:00 CRITICAL require_once(): Failed opening required 'vendor/autoload.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 15
+
+2022-08-29T08:11:01+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:7
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(324): require()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-admin\options-general.php(10): require_once('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 7
+
+2022-08-29T08:12:24+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:7
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(324): require()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-admin\admin.php(34): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-admin\options-general.php(10): require_once('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 7
+
+2022-08-29T08:12:25+00:00 CRITICAL Uncaught Error: Class 'Carbon_Fields\Container' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php:7
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(324): require()
+#1 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 7
+
+2022-08-29T08:38:06+00:00 CRITICAL Uncaught Error: Call to undefined method Container::make() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:326
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): crb_nav_menu_options()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): Carbon_Fields\Loader\Loader->trigger_fields_register()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#7 C:\OpenServer\domains\Woocommerce\wp-settings.php(598): do_action()
+#8 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 326
+
+2022-08-29T08:38:09+00:00 CRITICAL Uncaught Error: Call to undefined method Container::make() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:326
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): crb_nav_menu_options()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): Carbon_Fields\Loader\Loader->trigger_fields_register()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#7 C:\OpenServer\domains\Woocommerce\wp-settings.php(598): do_action()
+#8 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 326
+
+2022-08-29T08:38:09+00:00 CRITICAL Uncaught Error: Call to undefined method Container::make() in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:326
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): crb_nav_menu_options()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Loader\Loader.php(113): do_action()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): Carbon_Fields\Loader\Loader->trigger_fields_register()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(476): WP_Hook->do_action()
+#7 C:\OpenServer\domains\Woocommerce\wp-settings.php(598): do_action()
+#8 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 326
+
+2022-08-29T09:28:26+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 14
+
+2022-08-29T09:28:27+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 14
+
+2022-08-29T09:29:23+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\inc\carbon-fields.php на строке 14
+
+2022-08-29T09:41:44+00:00 CRITICAL Uncaught Error: Object of class WP_Post could not be converted to string in C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Datastore\Nav_Menu_Item_Datastore.php:13
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Datastore\Nav_Menu_Item_Datastore.php(18): Carbon_Fields\Datastore\Nav_Menu_Item_Datastore->get_garbage_prefix()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Datastore\Nav_Menu_Item_Datastore.php(48): Carbon_Fields\Datastore\Nav_Menu_Item_Datastore->get_clean_field_name()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Field\Field.php(404): Carbon_Fields\Datastore\Nav_Menu_Item_Datastore->load()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Field\Field.php(417): Carbon_Fields\Field\Field->get_val в C:\OpenServer\domains\Woocommerce\wp-content\plugins\carbon-fields\vendor\htmlburger\carbon-fields\core\Datastore\Nav_Menu_Item_Datastore.php на строке 13
+
+2022-08-29T10:11:27+00:00 CRITICAL require(): Failed opening required 'C:\OpenServer\domains\Woocommerce/wp-content/themes/primdog/inc/carbon-fields.php' (include_path='.') в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 326
+
+2022-08-29T10:13:08+00:00 CRITICAL Uncaught Error: Class 'Crb_Main_Menu_Walker' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php:19
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php на строке 19
+
+2022-08-29T10:34:57+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php(28): wp_nav_menu()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#5 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php на строке 608
+
+2022-08-29T10:35:59+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php(28): wp_nav_menu()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#5 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php на строке 608
+
+2022-08-29T10:36:46+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting variable (T_VARIABLE) or '$' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php на строке 26
+
+2022-08-29T10:37:26+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php(29): wp_nav_menu()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#5 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php на строке 608
+
+2022-08-29T10:38:16+00:00 CRITICAL Uncaught Error: Call to a member function walk() on string in C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php:608
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(228): walk_nav_menu_tree()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php(29): wp_nav_menu()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#5 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#6 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#7 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#8 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#9 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php на строке 608
+
+2022-08-29T11:35:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields::walker_nav_menu_start_el(), 1 passed in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php on line 307 and exactly 4 expected in C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php:339
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields->walker_nav_menu_start_el()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(191): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(292): apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\doma в C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php на строке 339
+
+2022-08-29T11:35:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields::walker_nav_menu_start_el(), 1 passed in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php on line 307 and exactly 4 expected in C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php:339
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields->walker_nav_menu_start_el()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(191): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(292): apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\doma в C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php на строке 339
+
+2022-08-29T11:40:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:292
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 292
+
+2022-08-29T11:40:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php:292
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-settings.php(566): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-config.php(95): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\wp-load.php(50): require_once('C:\\OpenServer\\d...')
+#3 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(13): require_once('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#5 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 292
+
+2022-08-29T11:41:25+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:42:02+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:42:05+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:42:29+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:42:32+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:43:13+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:43:17+00:00 CRITICAL Uncaught Error: Using $this when not in object context in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php:38
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(48): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(15): get_header()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\header.php на строке 38
+
+2022-08-29T11:45:30+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:47:30+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:49:16+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:50:16+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:52:16+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:53:17+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:55:18+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:57:18+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T11:59:20+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T12:01:21+00:00 CRITICAL Cannot declare class Walker_Category_Checklist, because the name is already in use в C:\OpenServer\domains\Woocommerce\wp-admin\includes\class-walker-category-checklist.php на строке 19
+
+2022-08-29T12:10:00+00:00 CRITICAL Cannot redeclare Walker_Category_Checklist::start_el() в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php на строке 335
+
+2022-08-29T12:11:06+00:00 CRITICAL Uncaught Error: Class 'Walker_Payment' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php:33
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php на строке 33
+
+2022-08-29T12:11:24+00:00 CRITICAL Uncaught Error: Class 'Walker_Payment' not found in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php:33
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(770): require_once()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(716): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-includes\general-template.php(92): locate_template()
+#3 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(57): get_footer()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#6 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#7 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\footer.php на строке 33
+
+2022-08-29T12:11:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields::walker_nav_menu_start_el(), 2 passed in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php on line 307 and exactly 4 expected in C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php:339
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields->walker_nav_menu_start_el()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(191): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(299): apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-walker.php(146): Walker_Payment->start_el()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-walker.php(246): Walker->display_element()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(608): Walker->walk()
+# в C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php на строке 339
+
+2022-08-29T12:11:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields::walker_nav_menu_start_el(), 2 passed in C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php on line 307 and exactly 4 expected in C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php:339
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-hook.php(307): WP_Menu_Custom_Fields\Inc\Custom_Nav_Menu_Fields->walker_nav_menu_start_el()
+#1 C:\OpenServer\domains\Woocommerce\wp-includes\plugin.php(191): WP_Hook->apply_filters()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\functions.php(299): apply_filters()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-walker.php(146): Walker_Payment->start_el()
+#4 C:\OpenServer\domains\Woocommerce\wp-includes\class-wp-walker.php(246): Walker->display_element()
+#5 C:\OpenServer\domains\Woocommerce\wp-includes\nav-menu-template.php(608): Walker->walk()
+# в C:\OpenServer\domains\Woocommerce\wp-content\plugins\wp-menu-custom-fields\inc\classes\class-custom-nav-menu-fields.php на строке 339
+
+2022-08-29T13:52:40+00:00 CRITICAL Uncaught Error: Call to a member function set() on null in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php:22
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 22
+
+2022-08-29T16:38:05+00:00 CRITICAL syntax error, unexpected ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 44
+
+2022-08-29T17:13:33+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 43
+
+2022-08-29T17:17:06+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Query as array in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php:42
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 42
+
+2022-08-29T17:46:17+00:00 CRITICAL syntax error, unexpected '}', expecting end of file в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 68
+
+2022-08-29T18:51:30+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php:47
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 47
+
+2022-08-29T18:51:40+00:00 CRITICAL Uncaught Error: Object of class WP_Query could not be converted to string in C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php:47
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include()
+#1 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#2 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#3 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 47
+
+2022-08-29T18:58:04+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 45
+
+2022-08-29T19:08:11+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' в C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php на строке 45
+
+2022-08-29T19:21:13+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::is_visible() in C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\templates\content-product.php:23
+Stack trace:
+#0 C:\OpenServer\domains\Woocommerce\wp-includes\template.php(772): require()
+#1 C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template()
+#2 C:\OpenServer\domains\Woocommerce\wp-content\themes\primdog\index.php(51): wc_get_template_part()
+#3 C:\OpenServer\domains\Woocommerce\wp-includes\template-loader.php(106): include('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\Woocommerce\wp-blog-header.php(19): require_once('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\Woocommerce\index.php(17): require('C:\\OpenServer\\d...')
+#6 {main}
+  thrown в C:\OpenServer\domains\Woocommerce\wp-content\plugins\woocommerce\templates\content-product.php на строке 23
+
